@@ -108,32 +108,7 @@ body {
  </head>
   <body>
 
-    <div class="header">
-      <h1>Technical Documentation Page</h1>
-      <p>How to Start a Motorcycle</p>
-    </div>
-
-   <!-- <nav class="topnav" id="navbar">
-      <header>
-        How to Start a Motorcycle
-      </header>
-       
-      <a href="#Sit_on_Motorcycle" class="nav-link">
-          Sit on Motorcycle
-        </a>
-       <a href="#Lift_Kickstand" class="nav-link">
-          Lift Kickstand
-        </a>
-       <a href="#Turn_on_Ignition" class="nav-link">
-          Turn on Ignition
-         </a>
-       <a href="#Press_Ignition_Button" class="nav-link">
-          Press Ignition Button
-         </a>
-       <a href="#Drive_Motorcycle" class="nav-link">
-          Drive Motorcycle
-         </a>
-    </nav> -->
+ 
 
   
     <div class="row">
@@ -141,7 +116,7 @@ body {
         <div class="card">
           <nav class="topnav" id="navbar">
             <header>
-              How to Start a Motorcycle
+             
             </header>
              
              <a href="#Sit_on_Motorcycle" class="nav-link">
@@ -165,11 +140,16 @@ body {
       </div>
       <div class="rightcolumn">
         <main id="main-doc">
+
+          <div class="header">
+            <h1>How to Start a Motorcycle</h1>
+            
+          </div>
         
           <div class="card">
             <section class="main-section" id="Sit_on_Motorcycle">
             <header>Sit on Motorcycle</header>
-            <code></code>
+            <code>First do a Safety Check</code>
             <ol>
               <li>Is your helmut on?</li>
               <li>Are you wearing long pants?</li>
@@ -177,28 +157,25 @@ body {
               <li>How are the weather conditions?</li>
               <li>Is the bike in good order?</li>
             </ol>
-            <h5>Title description, Dec 7, 2017</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
+           
+            <p>When you first sit on a motorcycle it's a good idea to take a moment and think about your surroundings.</p>
             <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
           </section>
           </div>
           <div class="card">
             <section class="main-section" id="Lift_Kickstand">
             <header>Lift Kickstand</header>
-            <code></code>
-            <h5>Title description, Sep 2, 2017</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
+            <code>The kickstand is a metal piece that hold the motorcyle up when you're not there.</code>
+           
+            <p>Most modern motorcycles depend on you to lift the kickstand before you can start the motorcycle.</p>
             <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
           </section>
           </div>
           <div class="card">
             <section class="main-section" id="Turn_on_Ignition">
             <header>Turn on Ignition</header>
-            <code></code>
-            <h5>Title description, Dec 7, 2017</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
+            <code>Use your motorcyle ket to turn on ignition.</code>
+            
             <p>Some text..</p>
             <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
           </section>
@@ -206,20 +183,18 @@ body {
           <div class="card">
             <section class="main-section" id="Press_Ignition_Button">
             <header>Press Ignition Button</header>
-            <code></code>
-            <h5>Title description, Sep 2, 2017</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
+            <code>Some motorcycles don't have an ignition button.</code>
+         
+            <p>If you don't have an ignition button, use the kick-start device.</p>
             <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
           </section>
           </div>
           <div class="card">
             <section class="main-section" id="Drive_Motorcycle">
             <header>Drive Motorcycle</header>
-            <code></code>
-            <h5>Title description, Dec 7, 2017</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
+            <code>The best part.</code>
+          
+            <p>Enjoy a safe motorcycle ride..</p>
             <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
           </section>
           </div>
@@ -227,9 +202,6 @@ body {
       </div>
     </div>
   
-    <div class="footer">
-      <h2>Footer</h2>
-    </div>
 
    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
  </body>
